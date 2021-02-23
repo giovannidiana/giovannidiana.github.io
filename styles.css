@@ -1,0 +1,27 @@
+    li {
+        margin: 10px 0;
+    }
+
+    li.nav {
+        float: left;
+        margin: 0 0;
+    }
+ 
+    li.nav a {
+        display: block;
+        padding: 8px;
+    }
+
+   
+    .ulnav {
+        float: right;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #dddddd;
+        text-align: right;
+        background-position: 100%;
+    }
+
+
