@@ -1,27 +1,37 @@
-    li {
-        margin: 10px 0;
-    }
+li {
+    margin: 10px 0;
+}
 
-    li.nav {
-        float: left;
-        margin: 0 0;
-    }
- 
-    li.nav a {
-        display: block;
-        padding: 8px;
-    }
+li.nav {
+    float: left;
+    margin: 0 0;
+}
 
-   
-    .ulnav {
-        float: right;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #dddddd;
-        text-align: right;
-        background-position: 100%;
-    }
+li.nav a {
+    display: block;
+    padding: 8px;
+}
 
+.ulnav {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+    text-align: right;
+    background-position: 100%;
+}
 
+.headerdiv {
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+}
+
+.svgholder {
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+}
