@@ -10,7 +10,7 @@ function gentrace(){
         i+=1
         var s = false
         var c1 = c*math.exp(-2)
-        if(math.random()<0.5 && i>300) s=true
+        if(math.random()<0.5 && i>400) s=true
         if(s) c1+=2*math.abs(randnScalar())
         vector.push({x1:i-1,x2:i,y1:c,y2:c1})
         c=c1
@@ -36,25 +36,6 @@ svg_ph.selectAll("line")
   .delay(function(_, i) {
     return i})
   .style("opacity",1)
-
-/*
-for (let i=0;i<1000;i++){
-    svg_ph.append("line")
-        .datum(trace[i])
-        .attr("x1",function(d){ return d.x1})
-        .attr("x2",function(d){ return d.x2})
-        .attr("y1",function(d){return maxheigth-d.y1})
-        .attr("y2",function(d){ return maxheigth-d.y2})
-        .attr("stroke-width",0.5)
-        .attr("stroke","black")
-        .transition()
-        .duration(2000)
-        .delay(function(_, k) {
-            return k * 200
-        })
-        .style("opacity", 1)
-}
-*/
 
 
 // Gaussian random number (mean = 0, variance = 1;

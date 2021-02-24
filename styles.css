@@ -24,6 +24,7 @@ li.nav a {
 }
 
 .headerdiv {
+    display: flex;
     margin: 0px;
     padding: 0px;
     position:relative;
@@ -35,3 +36,9 @@ li.nav a {
     left:0;
     bottom:-8px;
 }
+
+.headerdiv img {
+    height:200px;
+    float:left;
+}
+
