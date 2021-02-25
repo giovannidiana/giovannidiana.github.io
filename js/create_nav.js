@@ -1,12 +1,12 @@
 function create_nav(title){
 
     d3.select("body").append("h2")
-        .style("white-space","nowrap")
-        .style("margin-top","60px")
-        .style("margin-bottom","0px")
+        .attr("class","pagetitle")
         .text(title)
 
-    var div_nav=d3.select("body").append("div").attr("class","navbar")
+    var div_nav=d3.select("body")
+        .append("div")
+        .attr("class","navbar")
     div_nav.append("a")
         .attr("href","index.html")
         .text("Index")
@@ -16,6 +16,5 @@ function create_nav(title){
     div_nav.append("a")
         .attr("href","softwares.html")
         .text("Software")
-
 
 }
