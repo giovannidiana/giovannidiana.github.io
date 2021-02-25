@@ -8,8 +8,8 @@ function gentrace(n){
     while(i<n){
         i+=1
         var s = false
-        var c1 = c*math.exp(-2)
-        if(math.random()<0.5 && i>n/2) s=true
+        var c1 = c*math.exp(-0.5)
+        if(math.random()<0.2 && i>n/2) s=true
         if(s) c1+=2*math.abs(randnScalar())
         vector.push({x1:i-1,x2:i,y1:c,y2:c1})
         c=c1
