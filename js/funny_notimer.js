@@ -39,7 +39,7 @@ function display_trace(){
         .transition()
         .duration(0)
         .delay(function(_, i) {
-            return i})
+            return i/4})
         .style("opacity",1)
 }
 
