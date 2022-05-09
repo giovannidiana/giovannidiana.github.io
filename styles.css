@@ -1,0 +1,65 @@
+body {
+    margin:0;
+    background-color: rgb(255,255,255);
+}
+
+h3,p {
+    margin-left:8px;
+}
+
+.pagetitle{
+    white-space:nowrap;
+    margin-top:60px;
+    margin-bottom:0px;
+    margin-left:8px;
+}
+
+.navbar {
+    overflow:hidden;
+    background-color: #000000;
+    position: fixed;
+    top:0;
+    width:100%;
+    opacity:1;
+    z-index:10;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+li {
+    margin: 10px 10px;
+}
+
+.headerdiv {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+}
+
+.svgholder {
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+}
+
+.headerdiv img {
+    height:200px;
+    float:left;
+    z-index:-1;
+}
+
