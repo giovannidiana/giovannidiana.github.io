@@ -60,4 +60,14 @@
             <li><a href=https://dianapassaro.wixsite.com/imaginiche>ImagiNiche lab</a></li>
         </ul>
 
+    
+        <div id="visits"> ... </div>
+        <script>
+            function cb(response) {
+                document.getElementById('visits').innerText = response.value;
+            }
+        </script>
+
+        <script async src="https://api.countapi.xyz/hit/giovannidiana.github.io/visits?callback=cb"></script>
+
     </body></html>
