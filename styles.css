@@ -5,15 +5,13 @@ body {
     background-color: rgb(255,255,255);
 }
 
-div.plain {
+p.plain {
     font-family:"Inter",'sans-serif';
     font-weight:400;
 }
 
 h3,p {
     margin-left:8px;
-    font-family:"Inter",'sans-serif';
-    font-weight:400;
 }
 
 .pagetitle{
